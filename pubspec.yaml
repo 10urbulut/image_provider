@@ -1,38 +1,47 @@
 name: image_provider
 description: A new Flutter package project.
 version: 0.4.0
-homepage: https://github.com/DestechHasarWebsiteleri/image_provider
 
 publish_to: none
 
 environment:
-  sdk: '>=2.18.0 <4.0.0'
+  sdk: '>=3.0.5 <4.0.0'
   flutter: ">=2.2.3"
 
 dependencies:
   flutter:
     sdk: flutter
   provider: ^6.0.5
-  camera: ^0.10.5+5
-  native_device_orientation: ^1.2.1
-  # image_pickers: ^2.0.4+5
+  camera: ^0.10.1
+  native_device_orientation: ^1.1.4
   flutter_image_compress: ^2.1.0
-  permission_handler: ^11.0.1
-  path_provider: ^2.1.1
-  device_info_plus: ^9.1.0
+  path_provider: ^2.0.11
+  multi_image_picker_plus: #^0.0.3
+    git:
+      url: https://github.com/trailon/multi_image_picker_plus.git
+
   #Web
   file_picker: ^6.0.0
+  permission_manager:
+    git:
+      url: "https://github.com/trailon/permission_manager.git"
+  focused_image_widget:
+    git:
+      url: https://github.com/CosmosExmo/focused_image_widget.git
 
   dialog_service:
     git:
-      url: https://github.com/10urbulut/dialog_service.git
-      ref: 86043c963379470e1804aefddeb2e72dcf49a303
-  image_picker: ^1.0.4
+      url: https://github.com/trailon/dialog_service.git
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
 flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - image_provider_assets/imgs/
 
 
