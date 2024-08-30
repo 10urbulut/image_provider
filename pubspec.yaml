@@ -21,7 +21,7 @@ dependencies:
   path_provider: ^2.1.1
   device_info_plus: ^9.1.0
   #Web
-  file_picker: ^6.0.0
+  file_picker: ^8.1.2
 
   dialog_service:
     git:
