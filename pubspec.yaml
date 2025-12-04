@@ -21,7 +21,7 @@ dependencies:
       url: https://github.com/trailon/multi_image_picker_plus.git
 
   #Web
-  file_picker: ^6.0.0
+  file_picker: ^8.3.7
   permission_manager:
     git:
       url: "https://github.com/trailon/permission_manager.git"
